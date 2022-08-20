@@ -1,0 +1,4 @@
+Move Method	org.apache.flink.api.java.utils.RequiredParameters::hasNoDefaultValueAndNoValuePassedOnAlternativeName(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>):boolean	org.apache.flink.api.java.utils.Option	0/5	
+Move Method	org.apache.flink.api.java.utils.RequiredParameters::checkIsCastableToDefinedType(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>):void	org.apache.flink.api.java.utils.Option	0/4	
+Move Method	org.apache.flink.api.java.utils.RequiredParameters::checkChoices(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>):void	org.apache.flink.api.java.utils.Option	0/2	
+Move Method	org.apache.flink.api.java.utils.RequiredParameters::checkAmbiguousValues(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>):void	org.apache.flink.api.java.utils.Option	0/2	

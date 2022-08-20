@@ -1,0 +1,314 @@
+org.apache.flink.api.java.functions.SemanticPropUtil	private static void parseNonForwardedFields(org.apache.flink.api.common.operators.SemanticProperties, java.lang.String[], TypeInformation<?>, TypeInformation<?>, int, boolean) 	excludedFields	B4	0/18
+org.apache.flink.api.java.functions.SemanticPropUtil	private static void parseNonForwardedFields(org.apache.flink.api.common.operators.SemanticProperties, java.lang.String[], TypeInformation<?>, TypeInformation<?>, int, boolean) 	excludedFields	B15	0/5
+org.apache.flink.api.java.functions.SemanticPropUtil	private static void parseNonForwardedFields(org.apache.flink.api.common.operators.SemanticProperties, java.lang.String[], TypeInformation<?>, TypeInformation<?>, int, boolean) 	excludedFields	B16	0/2
+org.apache.flink.api.common.io.SequentialFormatTestBase	public void checkRead() throws java.lang.Exception	readCount	B2	0/12
+org.apache.flink.api.common.io.SequentialFormatTestBase	public void checkRead() throws java.lang.Exception	readCount	B3	0/11
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void ignoreInvalidLines() throws java.lang.Exception	format	B1	0/11
+org.apache.flink.api.java.operator.FirstNOperatorTest	public void testGroupedFirstN() 	tupleDs	B1	0/10
+org.apache.flink.api.java.operator.FirstNOperatorTest	public void testGroupedSortedFirstN() 	tupleDs	B1	0/10
+org.apache.flink.api.java.operator.FirstNOperatorTest	public void testUngroupedFirstN() 	tupleDs	B1	0/10
+org.apache.flink.api.java.io.CSVReaderTest	public void testIncludeFieldsErrorWhenExcludingAll() 	reader	B1	0/9
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testScanOrder() throws java.lang.Exception	format	B1	0/8
+org.apache.flink.api.java.operators.CrossOperator.CrossProjection	private TypeInformation<?>[] extractFieldTypes(int[]) 	typeInfo	B3	0/8
+org.apache.flink.api.java.operators.JoinOperator.JoinProjection	private TypeInformation<?>[] extractFieldTypes(int[]) 	typeInfo	B3	0/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties createProjectionPropertiesDual(int[], boolean[], TypeInformation<?>, TypeInformation<?>) 	sourceOffsets1	B1	0/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties createProjectionPropertiesDual(int[], boolean[], TypeInformation<?>, TypeInformation<?>) 	sourceOffsets2	B6	0/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testTailingEmptyFields() throws java.lang.Exception	format	B1	0/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void ignoreMultiCharPrefixComments() throws java.lang.Exception	format	B1	0/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void ignoreSingleCharPrefixComments() throws java.lang.Exception	format	B1	0/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testTailingEmptyFields() throws java.lang.Exception	format	B1	0/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithTrailingEmptyFields() throws java.lang.Exception	inputFormat	B1	0/6
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testEmptyProjection() throws java.lang.Exception	format	B1	0/6
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testParserCorrectness() throws java.lang.Exception	r1	B1	0/6
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testParserCorrectness() throws java.lang.Exception	r2	B1	0/6
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testParserCorrectness() throws java.lang.Exception	r3	B1	0/6
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testParserCorrectness() throws java.lang.Exception	r4	B1	0/6
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testParserCorrectness() throws java.lang.Exception	r5	B1	0/6
+org.apache.flink.api.java.operators.GroupCombineOperator	protected sealed GroupCombineOperatorBase<?,OUT,?> translateToDataFlow(Operator<IN>) 	o	B9	0/6
+org.apache.flink.api.java.operators.GroupCombineOperator	protected sealed GroupCombineOperatorBase<?,OUT,?> translateToDataFlow(Operator<IN>) 	o	B10	0/2
+org.apache.flink.api.java.operators.GroupReduceOperator	protected sealed GroupReduceOperatorBase<?,OUT,?> translateToDataFlow(Operator<IN>) 	o	B11	0/6
+org.apache.flink.api.java.operators.GroupReduceOperator	protected sealed GroupReduceOperatorBase<?,OUT,?> translateToDataFlow(Operator<IN>) 	o	B12	0/2
+org.apache.flink.api.common.operators.base.CoGroupOperatorCollectionTest	public void testExecuteOnCollection() 	executionConfig	B1	0/5
+org.apache.flink.api.java.utils.ParameterTool	public void createPropertiesFile(java.lang.String, boolean) throws java.io.IOException	file	B1	0/5
+org.apache.flink.api.java.io.CsvInputFormat	protected static boolean[] toBooleanMask(int[]) 	max	B1	0/5
+org.apache.flink.api.java.io.CsvInputFormat	protected static boolean[] toBooleanMask(int[]) 	max	B2	0/4
+org.apache.flink.api.java.functions.SampleInCoordinator	public void reduce(Iterable<IntermediateSampleData<T>>, Collector<T>) throws java.lang.Exception	sampler	B1	0/4
+org.apache.flink.api.java.functions.SampleInCoordinator	public void reduce(Iterable<IntermediateSampleData<T>>, Collector<T>) throws java.lang.Exception	sampler	B1	0/4
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties createProjectionPropertiesSingle(int[], CompositeType<?>) 	sourceOffsets	B1	0/4
+org.apache.flink.api.java.operator.GroupingTest	public void testGroupByKeyExpressions1() 	ds	B1	0/4
+org.apache.flink.api.java.operator.GroupingTest	public void testGroupByKeyExpressions1Nested() 	ds	B1	0/4
+org.apache.flink.api.java.sampling.RandomSamplerTest	private void verifyRandomSamplerWithFraction(double, RandomSampler<java.lang.Double>, boolean) 	baseSample	B1	0/4
+org.apache.flink.api.java.sampling.RandomSamplerTest	private void verifyRandomSamplerWithSampleSize(int, RandomSampler<java.lang.Double>, boolean, boolean) 	baseSample	B1	0/4
+org.apache.flink.api.java.utils.ParameterTool	public void createPropertiesFile(java.lang.String, boolean) throws java.io.IOException	defaultProps	B5	0/4
+org.apache.flink.api.java.io.PojoCsvInputFormat	private void setOrderOfPOJOFields(java.lang.String[]) 	includedCount	B1	0/4
+org.apache.flink.api.java.io.PojoCsvInputFormat	private void setOrderOfPOJOFields(java.lang.String[]) 	includedCount	B2	0/3
+org.apache.flink.api.java.io.PojoCsvInputFormat	private void setOrderOfPOJOFields(java.lang.String[]) 	includedCount	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.BooleanValueSummaryAggregatorTest	protected transient sealed org.apache.flink.api.java.summarize.BooleanColumnSummary summarize(java.lang.Boolean[]) 	booleanValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.BooleanValueSummaryAggregatorTest	protected transient sealed org.apache.flink.api.java.summarize.BooleanColumnSummary summarize(java.lang.Boolean[]) 	booleanValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.BooleanValueSummaryAggregatorTest	protected transient sealed org.apache.flink.api.java.summarize.BooleanColumnSummary summarize(java.lang.Boolean[]) 	booleanValues	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.DoubleValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Double> summarize(java.lang.Double[]) 	doubleValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.DoubleValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Double> summarize(java.lang.Double[]) 	doubleValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.DoubleValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Double> summarize(java.lang.Double[]) 	doubleValues	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.FloatValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Float> summarize(java.lang.Float[]) 	floatValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.FloatValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Float> summarize(java.lang.Float[]) 	floatValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.FloatValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Float> summarize(java.lang.Float[]) 	floatValues	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.IntegerValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Integer> summarize(java.lang.Integer[]) 	intValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.IntegerValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Integer> summarize(java.lang.Integer[]) 	intValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.IntegerValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Integer> summarize(java.lang.Integer[]) 	intValues	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.LongValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Long> summarize(java.lang.Long[]) 	longValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.LongValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Long> summarize(java.lang.Long[]) 	longValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.LongValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Long> summarize(java.lang.Long[]) 	longValues	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.ShortSummaryAggregatorTest	protected transient NumericColumnSummary<java.lang.Short> summarize(java.lang.Integer[]) 	shortValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.ShortSummaryAggregatorTest	protected transient NumericColumnSummary<java.lang.Short> summarize(java.lang.Integer[]) 	shortValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.ShortSummaryAggregatorTest	protected transient NumericColumnSummary<java.lang.Short> summarize(java.lang.Integer[]) 	shortValues	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.ShortValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Short> summarize(java.lang.Integer[]) 	shortValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.ShortValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Short> summarize(java.lang.Integer[]) 	shortValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.ShortValueSummaryAggregatorTest	protected transient sealed NumericColumnSummary<java.lang.Short> summarize(java.lang.Integer[]) 	shortValues	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.StringValueSummaryAggregatorTest	protected transient sealed org.apache.flink.api.java.summarize.StringColumnSummary summarize(java.lang.String[]) 	stringValues	B1	0/4
+org.apache.flink.api.java.summarize.aggregation.StringValueSummaryAggregatorTest	protected transient sealed org.apache.flink.api.java.summarize.StringColumnSummary summarize(java.lang.String[]) 	stringValues	B2	0/3
+org.apache.flink.api.java.summarize.aggregation.StringValueSummaryAggregatorTest	protected transient sealed org.apache.flink.api.java.summarize.StringColumnSummary summarize(java.lang.String[]) 	stringValues	B3	0/2
+org.apache.flink.api.java.operators.OperatorTranslation	private Operator<O> translateSingleInputOperator(SingleInputOperator<?,?,?>) 	udfOp	B2	0/4
+org.apache.flink.api.java.operators.OperatorTranslation	private Operator<O> translateSingleInputOperator(SingleInputOperator<?,?,?>) 	udfOp	B4	0/3
+org.apache.flink.api.java.operators.OperatorTranslation	private Operator<O> translateSingleInputOperator(SingleInputOperator<?,?,?>) 	udfOp	B5	0/2
+org.apache.flink.api.java.operators.OperatorTranslation	private Operator<O> translateTwoInputOperator(TwoInputOperator<?,?,?,?>) 	udfOp	B2	0/4
+org.apache.flink.api.java.operators.OperatorTranslation	private Operator<O> translateTwoInputOperator(TwoInputOperator<?,?,?,?>) 	udfOp	B4	0/3
+org.apache.flink.api.java.operators.OperatorTranslation	private Operator<O> translateTwoInputOperator(TwoInputOperator<?,?,?,?>) 	udfOp	B5	0/2
+org.apache.flink.api.common.operators.base.GroupReduceOperatorTest	public void testGroupReduceCollection() 	executionConfig	B1	0/3
+org.apache.flink.api.common.operators.base.GroupReduceOperatorTest	public void testGroupReduceCollectionWithRuntimeContext() 	executionConfig	B1	0/3
+org.apache.flink.api.common.operators.base.InnerJoinOperatorBaseTest	public void testTupleBaseJoiner() 	executionConfig	B1	0/3
+org.apache.flink.api.common.operators.base.ReduceOperatorTest	public void testReduceCollection() 	executionConfig	B1	0/3
+org.apache.flink.api.common.operators.base.ReduceOperatorTest	public void testReduceCollectionWithRuntimeContext() 	executionConfig	B1	0/3
+org.apache.flink.api.java.io.CSVReaderTest	public void testIllegalCharInStringMask() 	reader	B1	0/3
+org.apache.flink.api.java.io.CollectionInputFormatTest	public void testToStringOnBigCollection() 	inputFormat	B2	0/3
+org.apache.flink.api.java.io.CollectionInputFormatTest	public void testToStringOnSmallCollection() 	smallList	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoType() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithInvalidFieldMapping() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithMappingInfoAndPartialField() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithMappingInformation() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithPartialFieldInCSV() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithPrivateField() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testQuotedStringParsingWithEscapedQuotes() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testQuotedStringParsingWithIncludeFields() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.RowCsvInputFormatTest	private static void testRemovingTrailingCR(java.lang.String, java.lang.String) throws java.io.IOException	tempFile	B1	0/3
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testQuotedStringParsingWithEscapedQuotes() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testQuotedStringParsingWithIncludeFields() throws java.lang.Exception	tempFile	B1	0/3
+org.apache.flink.api.java.operator.DistinctOperatorTest	public void testDistinctByKeyFields3() 	customDs	B1	0/3
+org.apache.flink.api.java.operator.GroupingTest	public void testGroupByKeyExpressions3() 	customDs	B1	0/3
+org.apache.flink.api.java.operator.GroupingTest	public void testGroupByKeyFields3() 	customDs	B1	0/3
+org.apache.flink.api.java.operator.GroupingTest	public void testGroupByKeyFieldsOnPrimitiveArray() 	tupleDs	B1	0/3
+org.apache.flink.api.java.operator.GroupingTest	public void testGroupByKeySelector5() 	customDs	B1	0/3
+org.apache.flink.api.java.operator.MaxByOperatorTest	public void testCustomKeyFieldsDataset() 	customDs	B1	0/3
+org.apache.flink.api.java.operator.MaxByOperatorTest	public void testCustomKeyFieldsGrouping() 	groupDs	B1	0/3
+org.apache.flink.api.java.operator.MaxByOperatorTest	public void testMaxByRowTypeInfoKeyFieldsDataset() 	rowTypeInfo	B1	0/3
+org.apache.flink.api.java.operator.MaxByOperatorTest	public void testMaxByRowTypeInfoKeyFieldsForUnsortedGrouping() 	rowTypeInfo	B1	0/3
+org.apache.flink.api.java.operator.MinByOperatorTest	public void testCustomKeyFieldsDataset() 	customDs	B1	0/3
+org.apache.flink.api.java.operator.MinByOperatorTest	public void testCustomKeyFieldsGrouping() 	groupDs	B1	0/3
+org.apache.flink.api.java.operator.MinByOperatorTest	public void testMinByRowTypeInfoKeyFieldsDataset() 	rowTypeInfo	B1	0/3
+org.apache.flink.api.java.operator.MinByOperatorTest	public void testMinByRowTypeInfoKeyFieldsForUnsortedGrouping() 	rowTypeInfo	B1	0/3
+org.apache.flink.api.java.operators.DataSink	public DataSink<T> sortLocalOutput(java.lang.String, org.apache.flink.api.common.operators.Order) 	fields	B1	0/3
+org.apache.flink.api.java.operators.DataSource	protected GenericDataSourceBase<OUT,?> translateToDataFlow() 	name	B1	0/3
+org.apache.flink.api.java.summarize.aggregation.NumericSummaryAggregator	public NumericColumnSummary<T> result() 	variance	B1	0/3
+org.apache.flink.api.java.tuple.TupleGenerator	private static void appendTupleTypeGenerics(java.lang.StringBuilder, int) 	sb	B2	0/3
+org.apache.flink.api.java.tuple.TupleGenerator	public static void main(java.lang.String[]) throws java.lang.Exception	rootDir	B1	0/3
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithInvalidParameterValueBasedOnOptionChoices() throws org.apache.flink.api.java.utils.RequiredParametersException	required	B1	0/3
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithMissingDefaultValues() throws org.apache.flink.api.java.utils.RequiredParametersException	required	B1	0/3
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithMissingParameters() throws org.apache.flink.api.java.utils.RequiredParametersException	required	B1	0/3
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithNonCastableType() throws org.apache.flink.api.java.utils.RequiredParametersException	required	B1	0/3
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithParameterDefinedOnShortAndLongName() throws org.apache.flink.api.java.utils.RequiredParametersException	required	B1	0/3
+org.apache.flink.api.java.io.TupleCsvInputFormat	private void configure(java.lang.String, java.lang.String, TupleTypeInfoBase<OUT>, boolean[]) 	classes	B5	0/3
+org.apache.flink.api.java.io.TupleCsvInputFormat	private void configure(java.lang.String, java.lang.String, TupleTypeInfoBase<OUT>, boolean[]) 	classes	B6	0/2
+org.apache.flink.api.java.operators.SortPartitionOperator	protected sealed SingleInputOperator<?,T,?> translateToDataFlow(Operator<T>) 	partitionOrdering	B8	0/3
+org.apache.flink.api.java.operators.SortPartitionOperator	protected sealed SingleInputOperator<?,T,?> translateToDataFlow(Operator<T>) 	partitionOrdering	B9	0/2
+org.apache.flink.api.common.io.SequentialFormatTestBase	public void writeTuples() throws java.io.IOException	output	B2	0/3
+org.apache.flink.api.common.io.SequentialFormatTestBase	public void writeTuples() throws java.io.IOException	output	B3	0/2
+org.apache.flink.api.common.io.SequentialFormatTestBase	public void writeTuples() throws java.io.IOException	output	B8	0/3
+org.apache.flink.api.common.io.SequentialFormatTestBase	public void writeTuples() throws java.io.IOException	output	B9	0/2
+org.apache.flink.api.java.io.CollectionInputFormatTest	public void testToStringOnBigCollection() 	list	B1	0/3
+org.apache.flink.api.java.io.CollectionInputFormatTest	public void testToStringOnBigCollection() 	list	B2	0/2
+org.apache.flink.api.java.io.RowCsvInputFormat	private static boolean[] toFieldMask(int[]) 	maxField	B1	0/3
+org.apache.flink.api.java.io.RowCsvInputFormat	private static boolean[] toFieldMask(int[]) 	maxField	B2	0/2
+org.apache.flink.api.java.summarize.aggregation.AggregateCombineHarness	public final transient R summarize(T[]) 	aggregator2	B5	0/3
+org.apache.flink.api.java.summarize.aggregation.AggregateCombineHarness	public final transient R summarize(T[]) 	aggregator2	B8	0/2
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties addSourceFieldOffsets(org.apache.flink.api.common.operators.DualInputSemanticProperties, int, int, int, int) 	offsetReadFields	B2	0/3
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties addSourceFieldOffsets(org.apache.flink.api.common.operators.DualInputSemanticProperties, int, int, int, int) 	offsetReadFields	B3	0/2
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties addSourceFieldOffset(org.apache.flink.api.common.operators.SingleInputSemanticProperties, int, int) 	offsetReadFields	B2	0/3
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties addSourceFieldOffset(org.apache.flink.api.common.operators.SingleInputSemanticProperties, int, int) 	offsetReadFields	B3	0/2
+org.apache.flink.api.java.operators.GroupCombineOperator	public sealed org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticProperties() 	offset	B2	0/3
+org.apache.flink.api.java.operators.GroupReduceOperator	public sealed org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticProperties() 	offset	B2	0/3
+org.apache.flink.api.java.operators.ReduceOperator	public sealed org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticProperties() 	offset	B2	0/3
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties addSourceFieldOffsets(org.apache.flink.api.common.operators.DualInputSemanticProperties, int, int, int, int) 	offsetReadFields	B7	0/3
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties addSourceFieldOffsets(org.apache.flink.api.common.operators.DualInputSemanticProperties, int, int, int, int) 	offsetReadFields	B8	0/2
+org.apache.flink.api.java.operators.CoGroupOperator	protected sealed CoGroupOperatorBase<?,?,OUT,?> translateToDataFlow(Operator<I1>, Operator<I2>) 	o	B11	0/3
+org.apache.flink.api.java.operators.CoGroupOperator	protected sealed CoGroupOperatorBase<?,?,OUT,?> translateToDataFlow(Operator<I1>, Operator<I2>) 	o	B12	0/2
+org.apache.flink.api.java.operators.CoGroupOperator	protected sealed CoGroupOperatorBase<?,?,OUT,?> translateToDataFlow(Operator<I1>, Operator<I2>) 	o	B16	0/3
+org.apache.flink.api.java.operators.CoGroupOperator	protected sealed CoGroupOperatorBase<?,?,OUT,?> translateToDataFlow(Operator<I1>, Operator<I2>) 	o	B17	0/2
+org.apache.flink.api.java.operators.DataSink	protected GenericDataSinkBase<T> translateToDataFlow(Operator<T>) 	ordering	B7	0/3
+org.apache.flink.api.java.operators.DataSink	protected GenericDataSinkBase<T> translateToDataFlow(Operator<T>) 	ordering	B8	0/2
+org.apache.flink.api.common.io.SerializedFormatTest	protected sealed void checkEquals(org.apache.flink.types.Record, org.apache.flink.types.Record) 	actual	B1	0/2
+org.apache.flink.api.common.io.SerializedFormatTest	protected sealed void checkEquals(org.apache.flink.types.Record, org.apache.flink.types.Record) 	expected	B1	0/2
+org.apache.flink.api.java.io.CsvInputFormat	public sealed OUT readRecord(OUT, byte[], int, int) throws java.io.IOException	numBytes	B1	0/2
+org.apache.flink.api.java.io.CsvReader	public transient org.apache.flink.api.java.io.CsvReader includeFields(boolean[]) 	lastTruePos	B5	0/2
+org.apache.flink.api.java.io.PojoCsvInputFormat	private void configure(java.lang.String, java.lang.String, PojoTypeInfo<OUT>, java.lang.String[], boolean[]) 	includedFieldsMask	B1	0/2
+org.apache.flink.api.java.io.TextInputFormat	public sealed java.lang.String readRecord(java.lang.String, byte[], int, int) throws java.io.IOException	numBytes	B1	0/2
+org.apache.flink.api.java.io.TupleCsvInputFormat	private void configure(java.lang.String, java.lang.String, TupleTypeInfoBase<OUT>, boolean[]) 	includedFieldsMask	B3	0/2
+org.apache.flink.api.java.summarize.aggregation.CompensatedSumTest	public void testDelta() throws java.lang.Exception	compensatedResult1	B2	0/2
+org.apache.flink.api.java.io.CollectionInputFormatTest	public void testSerializabilityStrings() 	i	B2	0/2
+org.apache.flink.api.java.operators.SortPartitionOperator	private SingleInputOperator<?,T,?> translateToDataFlowWithKeyExtractor(Operator<T>, SelectorFunctionKeys<T,K>, org.apache.flink.api.common.operators.Order, java.lang.String) 	partitionOrdering	B1	1/6
+org.apache.flink.api.java.operators.SortPartitionOperator	private SingleInputOperator<?,T,?> translateToDataFlowWithKeyExtractor(Operator<T>, SelectorFunctionKeys<T,K>, org.apache.flink.api.common.operators.Order, java.lang.String) 	partitionOrdering	B2	0/2
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testQuotedStringParsingWithEscapedQuotes() throws java.lang.Exception	inputFormat	B1	1/11
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testQuotedStringParsingWithIncludeFields() throws java.lang.Exception	inputFormat	B1	1/11
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testQuotedStringParsingWithEscapedQuotes() throws java.lang.Exception	inputFormat	B1	1/11
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testQuotedStringParsingWithIncludeFields() throws java.lang.Exception	inputFormat	B1	1/11
+org.apache.flink.api.java.io.RowCsvInputFormatTest	private static void testRemovingTrailingCR(java.lang.String, java.lang.String) throws java.io.IOException	inputFormat	B1	1/9
+org.apache.flink.api.java.sampling.RandomSamplerTest	private void verifySamplerFraction(double, boolean) 	totalSampledSize	B1	1/8
+org.apache.flink.api.java.sampling.RandomSamplerTest	private void verifySamplerFraction(double, boolean) 	totalSampledSize	B4	1/4
+org.apache.flink.api.java.sampling.RandomSamplerTest	private void verifySamplerFraction(double, boolean) 	totalSampledSize	B5	0/2
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoType() throws java.lang.Exception	inputFormat	B1	1/8
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithMappingInfoAndPartialField() throws java.lang.Exception	inputFormat	B1	1/8
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithMappingInformation() throws java.lang.Exception	inputFormat	B1	1/8
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithPartialFieldInCSV() throws java.lang.Exception	inputFormat	B1	1/8
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithPrivateField() throws java.lang.Exception	inputFormat	B1	1/8
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoSubclassType() throws java.lang.Exception	inputFormat	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoType() throws java.lang.Exception	wrt	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithMappingInfoAndPartialField() throws java.lang.Exception	wrt	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithMappingInformation() throws java.lang.Exception	wrt	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithPartialFieldInCSV() throws java.lang.Exception	wrt	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoTypeWithPrivateField() throws java.lang.Exception	wrt	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testQuotedStringParsingWithEscapedQuotes() throws java.lang.Exception	writer	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testQuotedStringParsingWithIncludeFields() throws java.lang.Exception	writer	B1	1/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	private static void testRemovingTrailingCR(java.lang.String, java.lang.String) throws java.io.IOException	wrt	B1	1/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testQuotedStringParsingWithEscapedQuotes() throws java.lang.Exception	writer	B1	1/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testQuotedStringParsingWithIncludeFields() throws java.lang.Exception	writer	B1	1/7
+org.apache.flink.api.java.io.CsvInputFormat	public sealed OUT readRecord(OUT, byte[], int, int) throws java.io.IOException	isComment	B4	0/5
+org.apache.flink.api.java.io.CsvInputFormat	public sealed OUT readRecord(OUT, byte[], int, int) throws java.io.IOException	isComment	B5	0/4
+org.apache.flink.api.java.io.CsvInputFormat	public sealed OUT readRecord(OUT, byte[], int, int) throws java.io.IOException	isComment	B6	1/2
+org.apache.flink.api.java.operators.AggregateOperator	protected sealed GroupReduceOperatorBase<IN,IN,GroupReduceFunction<IN,IN>> translateToDataFlow(Operator<IN>) 	keyFieldUsedInAgg	B11	0/5
+org.apache.flink.api.java.operators.AggregateOperator	protected sealed GroupReduceOperatorBase<IN,IN,GroupReduceFunction<IN,IN>> translateToDataFlow(Operator<IN>) 	keyFieldUsedInAgg	B12	0/4
+org.apache.flink.api.java.operators.AggregateOperator	protected sealed GroupReduceOperatorBase<IN,IN,GroupReduceFunction<IN,IN>> translateToDataFlow(Operator<IN>) 	keyFieldUsedInAgg	B13	1/2
+org.apache.flink.api.java.operators.AggregateOperator.AggregatingUdf	public sealed void reduce(Iterable<T>, Collector<T>) 	outT	B6	1/3
+org.apache.flink.api.java.operators.AggregateOperator.AggregatingUdf	public sealed void reduce(Iterable<T>, Collector<T>) 	outT	B7	0/2
+org.apache.flink.api.java.io.CsvReader	public DataSource<T> tupleType(Class<T>) 	classes	B3	1/4
+org.apache.flink.api.java.io.CsvReader	public DataSource<T> tupleType(Class<T>) 	classes	B4	0/2
+org.apache.flink.api.java.io.CsvInputFormatTest	private void testRemovingTrailingCR(java.lang.String, java.lang.String) 	tempFile	B1	1/5
+org.apache.flink.api.java.io.CsvInputFormatTest	private void testSplitCsvInputStream(int, boolean, boolean) throws java.lang.Exception	tempFile	B1	1/5
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties createProjectionPropertiesDual(int[], boolean[], TypeInformation<?>, TypeInformation<?>) 	input	B13	1/4
+org.apache.flink.api.java.io.CsvInputFormatTest	private void testSplitCsvInputStream(int, boolean, boolean) throws java.lang.Exception	tempFile	B1	1/4
+org.apache.flink.api.java.utils.AbstractParameterTool	protected void addToDefaults(java.lang.String, java.lang.String) 	value	B1	2/4
+org.apache.flink.api.java.utils.AbstractParameterTool	protected void addToDefaults(java.lang.String, java.lang.String) 	value	B2	0/2
+org.apache.flink.api.java.io.CollectionInputFormat	private void writeObject(java.io.ObjectOutputStream) throws java.io.IOException	out	B1	1/3
+org.apache.flink.api.java.io.CsvInputFormatTest	private void testRemovingTrailingCR(java.lang.String, java.lang.String) 	tempFile	B1	1/3
+org.apache.flink.api.java.io.CsvReader	public DataSource<T> tupleType(Class<T>) 	inputFormat	B3	1/3
+org.apache.flink.api.java.io.RowCsvInputFormat	protected sealed boolean parseRecord(java.lang.Object[], byte[], int, int) throws org.apache.flink.api.common.io.ParseException	holders	B11	1/3
+org.apache.flink.api.java.summarize.aggregation.CompensatedSumTest	public void testAdd1() throws java.lang.Exception	compensatedResult1	B2	1/3
+org.apache.flink.api.java.summarize.aggregation.CompensatedSumTest	public void testAdd1() throws java.lang.Exception	compensatedResult2	B2	1/3
+org.apache.flink.api.java.summarize.aggregation.CompensatedSumTest	public void testAdd1() throws java.lang.Exception	naiveResult1	B2	1/3
+org.apache.flink.api.java.summarize.aggregation.CompensatedSumTest	public void testAdd1() throws java.lang.Exception	naiveResult2	B2	1/3
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testPojoSubclassType() throws java.lang.Exception	writer	B1	2/6
+org.apache.flink.api.java.io.PojoCsvInputFormat	private void configure(java.lang.String, java.lang.String, PojoTypeInfo<OUT>, java.lang.String[], boolean[]) 	classes	B8	1/3
+org.apache.flink.api.java.io.PojoCsvInputFormat	private void configure(java.lang.String, java.lang.String, PojoTypeInfo<OUT>, java.lang.String[], boolean[]) 	classes	B9	1/2
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties createProjectionPropertiesDual(int[], boolean[], TypeInformation<?>, TypeInformation<?>) 	numFieldsToCopy	B13	3/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties createProjectionPropertiesDual(int[], boolean[], TypeInformation<?>, TypeInformation<?>) 	sourceOffset	B13	3/8
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	combineTypes	B2	4/7
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	combineTypes	B3	3/5
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	combineTypes	B4	2/4
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	combineTypes	B5	1/3
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	combineTypes	B7	0/2
+org.apache.flink.api.java.operators.AggregateOperator.AggregatingUdf	public sealed void reduce(Iterable<T>, Collector<T>) 	outT	B1	1/3
+org.apache.flink.api.java.operators.AggregateOperator.AggregatingUdf	public sealed void reduce(Iterable<T>, Collector<T>) 	outT	B2	1/2
+org.apache.flink.api.java.io.CsvReader	public transient DataSource<T> pojoType(Class<T>, java.lang.String[]) 	inputFormat	B1	2/4
+org.apache.flink.api.java.io.CsvReader	public transient DataSource<T> pojoType(Class<T>, java.lang.String[]) 	inputFormat	B3	1/3
+org.apache.flink.api.common.operators.base.CoGroupOperatorCollectionTest.SumCoGroup	public sealed void coGroup(Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Collector<Tuple2<java.lang.String,java.lang.Integer>>) throws java.lang.Exception	f0	B1	2/5
+org.apache.flink.api.common.operators.base.CoGroupOperatorCollectionTest.SumCoGroup	public sealed void coGroup(Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Collector<Tuple2<java.lang.String,java.lang.Integer>>) throws java.lang.Exception	f0	B2	2/4
+org.apache.flink.api.common.operators.base.CoGroupOperatorCollectionTest.SumCoGroup	public sealed void coGroup(Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Collector<Tuple2<java.lang.String,java.lang.Integer>>) throws java.lang.Exception	sumF1	B1	2/5
+org.apache.flink.api.common.operators.base.CoGroupOperatorCollectionTest.SumCoGroup	public sealed void coGroup(Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Iterable<Tuple2<java.lang.String,java.lang.Integer>>, Collector<Tuple2<java.lang.String,java.lang.Integer>>) throws java.lang.Exception	sumF1	B2	2/4
+org.apache.flink.api.java.tuple.TupleGenerator	private static void insertCodeIntoFile(java.lang.String, java.io.File) throws java.io.IOException	indicatorFound	B3	1/2
+org.apache.flink.api.java.utils.DataSetUtils	public static org.apache.flink.api.java.Utils.ChecksumHashCode checksumHashCode(DataSet<T>) throws java.lang.Exception	input	B1	1/2
+org.apache.flink.api.java.operators.DistinctOperator	private static SingleInputOperator<?,IN,?> translateSelectorFunctionDistinct(SelectorFunctionKeys<IN,?>, ReduceFunction<IN>, TypeInformation<IN>, java.lang.String, Operator<IN>, int, org.apache.flink.api.common.operators.base.ReduceOperatorBase.CombineHint) 	reducer	B1	3/6
+org.apache.flink.api.java.operators.ReduceOperator	private static SingleInputOperator<?,T,?> translateSelectorFunctionReducer(SelectorFunctionKeys<T,?>, ReduceFunction<T>, TypeInformation<T>, java.lang.String, Operator<T>, int, org.apache.flink.api.common.operators.base.ReduceOperatorBase.CombineHint) 	reducer	B1	3/6
+org.apache.flink.api.java.utils.ParameterToolTest	public void testFromPropertiesFile() throws java.io.IOException	props	B1	4/7
+org.apache.flink.api.java.operators.DataSink	public DataSink<T> sortLocalOutput(java.lang.String, org.apache.flink.api.common.operators.Order) 	numFields	B1	3/5
+org.apache.flink.api.java.operators.DataSink	public DataSink<T> sortLocalOutput(java.lang.String, org.apache.flink.api.common.operators.Order) 	orders	B1	5/7
+org.apache.flink.api.java.operators.DataSink	public DataSink<T> sortLocalOutput(java.lang.String, org.apache.flink.api.common.operators.Order) 	orders	B3	1/2
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	reduceTypes	B2	4/6
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	reduceTypes	B3	3/4
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	reduceTypes	B4	2/3
+org.apache.flink.api.java.operators.GroupReduceOperator	private boolean checkCombinability() 	reduceTypes	B5	1/2
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testForwardedBasicType() 	sp	B1	2/3
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testForwardedNoArrowOneString() 	sp	B1	2/3
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testNonForwardedNestedTuple() 	sp	B1	2/3
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testReadFieldsNestedPojo() 	sp	B1	2/3
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void readMixedQuotedStringFields() throws java.lang.Exception	format	B1	5/7
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testAddSourceFieldOffset() 	semProps	B1	3/4
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testAddSourceFieldOffsets() 	semProps	B1	3/4
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testForwardedDual() 	dsp	B1	3/4
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testReadFieldsDual() 	dsp	B1	3/4
+org.apache.flink.api.java.tuple.TupleGenerator	public static void main(java.lang.String[]) throws java.lang.Exception	root	B1	3/4
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToMovesValuePassedOnShortNameToLongNameIfLongNameIsUndefined() 	required	B1	3/4
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithMultipleTypes() 	required	B1	3/4
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithOptionAndDefaultValue() 	required	B1	3/4
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithOptionMultipleOptionsAndOneDefaultValue() 	rq	B1	3/4
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithOptionWithLongAndShortNameAndDefaultValue() 	required	B1	3/4
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testApplyToWithSimpleOption() 	required	B1	3/4
+org.apache.flink.api.java.utils.RequiredParametersTest	public void testDefaultValueDoesNotOverrideValuePassedOnShortKeyIfLongKeyIsNotPassedButPresent() 	required	B1	3/4
+org.apache.flink.api.java.io.CsvInputFormatTest	public void testParserCorrectness() throws java.lang.Exception	format	B1	6/8
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testParserCorrectness() throws java.lang.Exception	format	B1	6/8
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testNonForwardedDual() 	dsp	B1	4/5
+org.apache.flink.api.java.operators.AggregateOperator	protected sealed GroupReduceOperatorBase<IN,IN,GroupReduceFunction<IN,IN>> translateToDataFlow(Operator<IN>) 	function	B3	5/6
+org.apache.flink.api.java.operators.AggregateOperator	protected sealed GroupReduceOperatorBase<IN,IN,GroupReduceFunction<IN,IN>> translateToDataFlow(Operator<IN>) 	function	B4	3/4
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	read	B3	8/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	read	B4	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	read	B5	6/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	read	B7	4/5
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	read	B9	3/4
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	nonForwarded	B3	8/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	nonForwarded	B4	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	nonForwarded	B5	6/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	nonForwarded	B7	4/5
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	forwarded	B3	8/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	forwarded	B4	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.SingleInputSemanticProperties getSemanticPropsSingle(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>) 	forwarded	B5	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void readStringFields() throws java.lang.Exception	format	B1	5/6
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B3	11/13
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B4	10/11
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B5	9/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B7	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B9	6/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B11	5/6
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B13	4/5
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readSecond	B15	3/4
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void readStringFieldsWithTrailingDelimiters() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testDoubleFields() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testEmptyFields() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testIntegerFields() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testReadFirstN() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testReadSparseWithMask() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testReadSparseWithNullFieldsForTypes() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testReadSparseWithPositionSetter() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.io.RowCsvInputFormatTest	public void testSqlTimeFields() throws java.lang.Exception	format	B1	6/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readFirst	B3	11/13
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readFirst	B4	10/11
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readFirst	B5	9/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readFirst	B7	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readFirst	B9	6/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readFirst	B11	5/6
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	readFirst	B13	4/5
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedSecond	B3	11/13
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedSecond	B4	10/11
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedSecond	B5	9/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedSecond	B7	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedSecond	B9	6/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedSecond	B11	5/6
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedFirst	B3	11/13
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedFirst	B4	10/11
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedFirst	B5	9/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedFirst	B7	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	nonForwardedFirst	B9	6/7
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	forwardedSecond	B3	11/13
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	forwardedSecond	B4	10/11
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	forwardedSecond	B5	9/10
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	forwardedSecond	B7	7/8
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	forwardedFirst	B3	11/13
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	forwardedFirst	B4	10/11
+org.apache.flink.api.java.functions.SemanticPropUtil	public static org.apache.flink.api.common.operators.DualInputSemanticProperties getSemanticPropsDual(Set<java.lang.annotation.Annotation>, TypeInformation<?>, TypeInformation<?>, TypeInformation<?>) 	forwardedFirst	B5	9/10
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testForwardedNestedTuples() 	sp	B1	8/9
+org.apache.flink.api.java.functions.SemanticPropUtilTest	public void testForwardedPojo() 	sp	B1	13/14
